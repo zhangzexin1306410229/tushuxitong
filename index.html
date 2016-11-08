@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>武汉生物工程学院图书馆</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="x-rim-auto-match" content="none"/>
+<meta name="HandheldFriendly" content="true"/>
+<link type="text/css" rel="stylesheet" href="css/demo.css">
+<script src="js/jquery-1.8.2.min.js"></script>
+<script src="js/demo.js"></script>
+</head>
+<body>
+<!-- screening -->
+<div class="screening">
+    <ul>
+    	<li class="meishi">书籍</li>
+        <li class="Regional">出版社</li>
+        <li class="Sort">个人</li>
+        <li class="Brand">筛选</li>
+    </ul>
+</div>
+<!-- End screening -->
+<!-- grade -->
+<div class="meishi22">
+    <ul class="meishia-w" id="meishia">
+        <li onclick="meishia(this)"><div  class="meishi1">全部分类 <span class="xiaobiao">1225></span></div></li>
+        <li onclick="meishia(this)"><div  class="meishi2">礼仪 <span class="xiaobiao">225></span></div></li>
+        <li onclick="meishia(this)"><div  class="meishi3">影视 <span class="xiaobiao">325></span></div></li>
+        <li onclick="meishia(this)"><div  class="meishi4">设计 <span class="xiaobiao">125></span></div></li>
+        <li onclick="meishia(this)"><div  class="meishi5">娱乐期刊 <span class="xiaobiao">25></span></div></li>
+        <li onclick="meishia(this)"><div  class="meishi6"> 音乐<span class="xiaobiao">425></span></div></li>
+        <li onclick="meishia(this)"><div  class="meishi7">人文 <span class="xiaobiao">825></span></div></li>
+        <li onclick="meishia(this)"><div  class="meishi8">机械 <span class="xiaobiao">625></span></div></li>
+    </ul>
+    <ul class="meishia-t" id="meishib">
+        <li onclick="meishib(this)">你想看找什么<span class="xiaobiao1"></span></li>
+        <li onclick="meishib(this)">你想看找什么<span class="xiaobiao1"></span></li>
+        <li onclick="meishib(this)">你想看找什么<span class="xiaobiao1"></span></li>
+        <li onclick="meishib(this)">你想看找什么<span class="xiaobiao1"></span></li>
+        <li onclick="meishib(this)">你想看找什么<span class="xiaobiao1"></span></li>
+        <li onclick="meishib(this)">你想看找什么<span class="xiaobiao1"></span></li>
+        <li onclick="meishib(this)">你想看找什么<span class="xiaobiao1"></span></li>
+    </ul>
+</div>
+
+
+
+
+<div class="grade-eject">
+    <ul class="grade-w" id="gradew">
+        <li onclick="grade1(this)">清华大学出版社<span class="xiaobiao">1225></span></li>
+        <li onclick="grade1(this)">武汉生物工程学院出版社 <span class="xiaobiao">2225></span></li>
+        <li onclick="grade1(this)">上海外国语出版社 <span class="xiaobiao">525></span></li>
+        <li onclick="grade1(this)">西安电子科技大学出版社<span class="xiaobiao">825></span></li>
+        <li onclick="grade1(this)">武汉大学出版社<span class="xiaobiao">425></span></li>
+        <li onclick="grade1(this)">华中师范大学出版社 <span class="xiaobiao">325></span></li>
+        <li onclick="grade1(this)">西北工业大学出版社 <span class="xiaobiao">725></span></li>
+        <li onclick="grade1(this)">人民邮电出版社 <span class="xiaobiao">925></span></li>
+        <li onclick="grade1(this)">吉林大学出版社 <span class="xiaobiao">1025></span></li>
+        <li onclick="grade1(this)">高等教育出版社 <span class="xiaobiao">325></span></li>
+        <li onclick="grade1(this)"> 长江出版社<span class="xiaobiao">205></span></li>
+        <li onclick="grade1(this)">武汉理工大学出版社 <span class="xiaobiao">285></span></li>
+        <li onclick="grade1(this)">哈尔滨工业大学出版社 <span class="xiaobiao">1245></span></li>
+       
+    </ul>
+    <ul class="grade-t" id="gradet">
+    	<div class="zimu">A</div>
+        <li onclick="gradet(this)">《早》 <span class="xiaobiao1"></span></li>
+        <div class="zimu">B</div>
+        <li onclick="gradet(this)">《计算机导论》 <span class="xiaobiao1"></span></li>
+        <li onclick="gradet(this)">《大学英语》 <span class="xiaobiao1"></span></li>
+        <li onclick="gradet(this)">《数据库》 <span class="xiaobiao1"></span></li>
+        <div class="zimu">C</div>
+        <li onclick="gradet(this)">《数据结构》 <span class="xiaobiao1"></span></li>
+        <li onclick="gradet(this)">《计算机操作系统》<span class="xiaobiao1"></span></li>
+        <li onclick="gradet(this)">《软件工程》 <span class="xiaobiao1"></span></li>
+        <div class="zimu">D</div>
+        <li onclick="gradet(this)">《PHP web开发》 <span class="xiaobiao1"></span></li>
+        <li onclick="gradet(this)">《H5与css基础教程》 <span class="xiaobiao1"></span></li>
+        <div class="zimu">E</div>
+        <li onclick="gradet(this)">《马克思》<span class="xiaobiao1"></span></li>
+        <li onclick="gradet(this)">《毛概》 <span class="xiaobiao1"></span></li>
+    </ul>
+    
+</div>
+<!-- End grade -->
+<!-- Category -->
+<div class="Sort-eject Sort-height">
+    <ul class="Sort-Sort" id="Sort-Sort">
+        <li onclick="Sorts(this)">智能排序</li>
+        <li onclick="Sorts(this)">借阅最多</li>
+        <li onclick="Sorts(this)">猜你喜欢</li>
+        <li onclick="Sorts(this)">未归还图书</li>
+        <li onclick="Sorts(this)">历史记录</li>
+        <li onclick="Sorts(this)">续借</li>
+    </ul>
+</div>
+<!-- End Category -->
+<!-- Category -->
+<script src="js/truck.23648f77.js"></script>
+<div class="Category-eject">
+    <ul class="Category-w" id="Categorytw">
+        <li onclick="Categorytw(this)">
+        	全部书籍
+        	<span><div class="wrap">
+              <input type="checkbox" id="s5">
+              <label class="slider-v3" for="s5"></label>
+			</div></span>
+        </li>
+        <li onclick="Categorytw(this)">
+        	未看过的书籍
+        	<span><div class="wrap">
+              <input type="checkbox" id="s6">
+              <label class="slider-v3" for="s6"></label>
+			</div></span>
+        
+        </li>
+        <li onclick="Categorytw(this)">
+        	未被借出的书籍
+        	<span><div class="wrap">
+              <input type="checkbox" id="s7">
+              <label class="slider-v3" for="s7"></label>
+			</div></span>
+         
+        </li>
+       
+                    <div style="margin-top:100px;"><button type="submit" class="btn-img"><span>完成</span></button></div>
+                </form>	
+            </div>        	
+        
+        </li>
+        <li onclick="Categorytw(this)"></li>
+        <li onclick="Categorytw(this)"></li>
+    </ul>
+</div>
+<script type="text/javascript">
+$(function(){   
+	$('.choosebox li a').click(function(){
+		var thisToggle = $(this).is('.size_radioToggle') ? $(this) : $(this).prev();
+		var checkBox = thisToggle.prev();
+		checkBox.trigger('click');
+		$('.size_radioToggle').removeClass('current');
+		thisToggle.addClass('current');
+		return false;
+	});		
+});
+
+$(".choosebox li a").click(function(){
+	var text = $(this).html();
+	$(".choosetext span").html(text);
+	$("#result").html("" + getSelectedValue("dress-size"));
+});
+			
+function getSelectedValue(id){
+	return 
+	$("#" + id).find(".choosetext span.value").html();
+}
+</script>
+<!-- End Category -->
+
+<!-- demo-content -->
+<div class="demo-content">Content</div>
+<!-- End demo-content -->
+
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+</div>
+</body>
+</html>
